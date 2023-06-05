@@ -10,7 +10,6 @@
 --include-plugin-directory=./venv/lib/python3.10/site-packages/django \
 --include-plugin-directory=./venv/lib/python3.10/site-packages/waitress \
 --include-plugin-directory=./venv/lib/python3.10/site-packages/whitenoise \
---include-plugin-directory=./venv/lib/python3.10/site-packages/fraction \
 --include-plugin-directory=./config \
 --include-plugin-directory=./app \
 --include-data-dir=./venv/lib/python3.10/site-packages/django=django main.py
@@ -20,7 +19,6 @@
 --follow-imports \
 --include-plugin-directory=./venv/lib/python3.10/site-packages/django \
 --include-plugin-directory=./venv/lib/python3.10/site-packages/whitenoise \
---include-plugin-directory=./venv/lib/python3.10/site-packages/fraction \
 --include-plugin-directory=./config \
 --include-plugin-directory=./app \
 --include-data-dir=./venv/lib/python3.10/site-packages/django=django manage.py
